@@ -1,0 +1,20 @@
+{
+  "source": "/Users/muhammed.siddiqui/Desktop/TEmp/Match/MatchUp/MatchUp/MatchUp/ContentView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Select an item"
+      },
+      {
+        "comment": "",
+        "key": "Item at %@"
+      },
+      {
+        "comment": "",
+        "key": "Add Item"
+      }
+    ]
+  },
+  "version": 1
+}
