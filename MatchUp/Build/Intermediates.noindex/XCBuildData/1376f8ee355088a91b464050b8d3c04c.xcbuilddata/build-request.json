@@ -1,0 +1,105 @@
+{
+  "buildCommand" : {
+    "command" : "preview",
+    "style" : "dynamicReplacement"
+  },
+  "configuredTargets" : [
+    {
+      "guid" : "dcd9e710ef2f9b48755376e5a41135a3a61c12a46140893aed422ebbe0129418",
+      "parameters" : {
+        "action" : "build",
+        "activeArchitecture" : "arm64",
+        "activeRunDestination" : {
+          "disableOnlyActiveArch" : false,
+          "platform" : "iphonesimulator",
+          "sdk" : "iphonesimulator17.2",
+          "sdkVariant" : "iphonesimulator",
+          "supportedArchitectures" : [
+            "arm64",
+            "x86_64"
+          ],
+          "targetArchitecture" : "arm64"
+        },
+        "arenaInfo" : {
+          "buildIntermediatesPath" : "/Users/muhammed.siddiqui/Desktop/TEmp/Match/MatchUp/MatchUp/Build/Intermediates.noindex",
+          "buildProductsPath" : "/Users/muhammed.siddiqui/Desktop/TEmp/Match/MatchUp/MatchUp/Build/Products",
+          "derivedDataPath" : "/Users/muhammed.siddiqui/Library/Developer/Xcode/DerivedData",
+          "indexDataStoreFolderPath" : "/Users/muhammed.siddiqui/Library/Developer/Xcode/DerivedData/MatchUp-drunofbjepzjnpbsorqjsmadhetr/Index.noindex/DataStore",
+          "indexEnableDataStore" : true,
+          "indexPCHPath" : "/Users/muhammed.siddiqui/Library/Developer/Xcode/DerivedData/MatchUp-drunofbjepzjnpbsorqjsmadhetr/Index.noindex/PrecompiledHeaders",
+          "pchPath" : "/Users/muhammed.siddiqui/Desktop/TEmp/Match/MatchUp/MatchUp/Build/Intermediates.noindex/PrecompiledHeaders"
+        },
+        "configurationName" : "Debug",
+        "overrides" : {
+          "synthesized" : {
+            "table" : {
+              "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "",
+              "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "",
+              "ASSETCATALOG_FILTER_FOR_THINNING_DEVICE_CONFIGURATION" : "iPhone16,1",
+              "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+              "DSTROOT" : "/Users/muhammed.siddiqui/Desktop/TEmp/Match/MatchUp/MatchUp/Build/Intermediates.noindex/Previews/MatchUp/ReleaseProducts",
+              "ENABLE_ONLY_ACTIVE_RESOURCES" : "NO",
+              "ENABLE_PREVIEWS" : "YES",
+              "OBJROOT" : "/Users/muhammed.siddiqui/Desktop/TEmp/Match/MatchUp/MatchUp/Build/Intermediates.noindex/Previews/MatchUp/Intermediates.noindex",
+              "SYMROOT" : "/Users/muhammed.siddiqui/Desktop/TEmp/Match/MatchUp/MatchUp/Build/Intermediates.noindex/Previews/MatchUp/Products",
+              "TARGET_DEVICE_IDENTIFIER" : "5CBFC33B-8844-4DB0-8EC3-F8F4589DE1F6",
+              "TARGET_DEVICE_MODEL" : "iPhone16,1",
+              "TARGET_DEVICE_OS_VERSION" : "17.2",
+              "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "containerPath" : "/Users/muhammed.siddiqui/Desktop/TEmp/Match/MatchUp/MatchUp/MatchUp.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphonesimulator",
+      "sdk" : "iphonesimulator17.2",
+      "sdkVariant" : "iphonesimulator",
+      "supportedArchitectures" : [
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/muhammed.siddiqui/Desktop/TEmp/Match/MatchUp/MatchUp/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/muhammed.siddiqui/Desktop/TEmp/Match/MatchUp/MatchUp/Build/Products",
+      "derivedDataPath" : "/Users/muhammed.siddiqui/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/muhammed.siddiqui/Library/Developer/Xcode/DerivedData/MatchUp-drunofbjepzjnpbsorqjsmadhetr/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/muhammed.siddiqui/Library/Developer/Xcode/DerivedData/MatchUp-drunofbjepzjnpbsorqjsmadhetr/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/muhammed.siddiqui/Desktop/TEmp/Match/MatchUp/MatchUp/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ASSETCATALOG_FILTER_FOR_DEVICE_MODEL" : "iPhone16,1",
+          "ASSETCATALOG_FILTER_FOR_DEVICE_OS_VERSION" : "17.2",
+          "ASSETCATALOG_FILTER_FOR_THINNING_DEVICE_CONFIGURATION" : "iPhone16,1",
+          "BUILD_ACTIVE_RESOURCES_ONLY" : "YES",
+          "ENABLE_XOJIT_PREVIEWS" : "NO",
+          "TARGET_DEVICE_IDENTIFIER" : "5CBFC33B-8844-4DB0-8EC3-F8F4589DE1F6",
+          "TARGET_DEVICE_MODEL" : "iPhone16,1",
+          "TARGET_DEVICE_OS_VERSION" : "17.2",
+          "TARGET_DEVICE_PLATFORM_NAME" : "iphonesimulator"
+        }
+      }
+    }
+  },
+  "schemeCommand" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}
