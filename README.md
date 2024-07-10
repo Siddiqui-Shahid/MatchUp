@@ -42,4 +42,3 @@ Upon launching the app, you will see a list of matches. You can swipe to match w
 - **Combine**: Used for managing data flow.
 - **Core Data**: Used as the core database for data persistence.
 
-Upon launching the app, you will see a list of matches. You can swipe to match with partners. If you are offline, the app will fetch the data from Core Data to ensure you can continue matching without an internet connection.
