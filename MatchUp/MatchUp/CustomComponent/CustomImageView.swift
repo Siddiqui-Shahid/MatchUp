@@ -19,11 +19,9 @@ struct CustomImageView: View {
                 .resizable()
                 .aspectRatio(contentMode: .fill)
                 .frame(width: scaled.getScaledWidth(value: 100), height: scaled.getScaledHeight(value: 100))
-//                .clipShape(Circle())
         } else if let url = imageURL {
             WebImage(url: url)
-                .onSuccess { image, data, cacheType in
-                    // Do something with the image
+                .onSuccess { _, _, _ in
                 }
                 .resizable()
                 .aspectRatio(contentMode: .fill)
