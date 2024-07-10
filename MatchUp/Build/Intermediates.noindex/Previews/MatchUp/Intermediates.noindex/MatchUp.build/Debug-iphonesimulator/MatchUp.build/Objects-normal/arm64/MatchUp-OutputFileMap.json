@@ -74,5 +74,15 @@
     "object" : "/Users/muhammed.siddiqui/Desktop/TEmp/Match/MatchUp/MatchUp/Build/Intermediates.noindex/Previews/MatchUp/Intermediates.noindex/MatchUp.build/Debug-iphonesimulator/MatchUp.build/Objects-normal/arm64/Persistence.o",
     "swift-dependencies" : "/Users/muhammed.siddiqui/Desktop/TEmp/Match/MatchUp/MatchUp/Build/Intermediates.noindex/Previews/MatchUp/Intermediates.noindex/MatchUp.build/Debug-iphonesimulator/MatchUp.build/Objects-normal/arm64/Persistence.swiftdeps",
     "swiftmodule" : "/Users/muhammed.siddiqui/Desktop/TEmp/Match/MatchUp/MatchUp/Build/Intermediates.noindex/Previews/MatchUp/Intermediates.noindex/MatchUp.build/Debug-iphonesimulator/MatchUp.build/Objects-normal/arm64/Persistence~partial.swiftmodule"
+  },
+  "/Users/muhammed.siddiqui/Desktop/TEmp/Match/MatchUp/MatchUp/MatchUp/Views/HomePageView.swift" : {
+    "const-values" : "/Users/muhammed.siddiqui/Desktop/TEmp/Match/MatchUp/MatchUp/Build/Intermediates.noindex/Previews/MatchUp/Intermediates.noindex/MatchUp.build/Debug-iphonesimulator/MatchUp.build/Objects-normal/arm64/HomePageView.swiftconstvalues",
+    "dependencies" : "/Users/muhammed.siddiqui/Desktop/TEmp/Match/MatchUp/MatchUp/Build/Intermediates.noindex/Previews/MatchUp/Intermediates.noindex/MatchUp.build/Debug-iphonesimulator/MatchUp.build/Objects-normal/arm64/HomePageView.d",
+    "diagnostics" : "/Users/muhammed.siddiqui/Desktop/TEmp/Match/MatchUp/MatchUp/Build/Intermediates.noindex/Previews/MatchUp/Intermediates.noindex/MatchUp.build/Debug-iphonesimulator/MatchUp.build/Objects-normal/arm64/HomePageView.dia",
+    "index-unit-output-path" : "/MatchUp.build/Debug-iphonesimulator/MatchUp.build/Objects-normal/arm64/HomePageView.o",
+    "llvm-bc" : "/Users/muhammed.siddiqui/Desktop/TEmp/Match/MatchUp/MatchUp/Build/Intermediates.noindex/Previews/MatchUp/Intermediates.noindex/MatchUp.build/Debug-iphonesimulator/MatchUp.build/Objects-normal/arm64/HomePageView.bc",
+    "object" : "/Users/muhammed.siddiqui/Desktop/TEmp/Match/MatchUp/MatchUp/Build/Intermediates.noindex/Previews/MatchUp/Intermediates.noindex/MatchUp.build/Debug-iphonesimulator/MatchUp.build/Objects-normal/arm64/HomePageView.o",
+    "swift-dependencies" : "/Users/muhammed.siddiqui/Desktop/TEmp/Match/MatchUp/MatchUp/Build/Intermediates.noindex/Previews/MatchUp/Intermediates.noindex/MatchUp.build/Debug-iphonesimulator/MatchUp.build/Objects-normal/arm64/HomePageView.swiftdeps",
+    "swiftmodule" : "/Users/muhammed.siddiqui/Desktop/TEmp/Match/MatchUp/MatchUp/Build/Intermediates.noindex/Previews/MatchUp/Intermediates.noindex/MatchUp.build/Debug-iphonesimulator/MatchUp.build/Objects-normal/arm64/HomePageView~partial.swiftmodule"
   }
 }

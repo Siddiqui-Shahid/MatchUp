@@ -1,0 +1,36 @@
+{
+  "source": "/Users/muhammed.siddiqui/Desktop/TEmp/Match/MatchUp/MatchUp/MatchUp/UI/Home/View/HomePageView.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "Random Users"
+      },
+      {
+        "comment": "",
+        "key": "%@. %@ %@"
+      },
+      {
+        "comment": "",
+        "key": "Accepted"
+      },
+      {
+        "comment": "",
+        "key": "Declined"
+      },
+      {
+        "comment": "",
+        "key": "Adilson Pultrum"
+      },
+      {
+        "comment": "",
+        "key": "56, Oudega gem"
+      },
+      {
+        "comment": "",
+        "key": "SmallingerInd, Drenthe"
+      }
+    ]
+  },
+  "version": 1
+}
