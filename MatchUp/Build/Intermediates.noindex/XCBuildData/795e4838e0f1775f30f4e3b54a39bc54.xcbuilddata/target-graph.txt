@@ -1,0 +1,16 @@
+Target dependency graph (6 targets)
+Target 'MatchUp' in project 'MatchUp'
+➜ Implicit dependency on target 'Pods-MatchUp' in project 'Pods' via file 'Pods_MatchUp.framework' in build phase 'Link Binary'
+➜ Implicit dependency on target 'SDWebImage' in project 'Pods' via options '-framework SDWebImage' in build setting 'OTHER_LDFLAGS'
+➜ Implicit dependency on target 'SDWebImageSwiftUI' in project 'Pods' via options '-framework SDWebImageSwiftUI' in build setting 'OTHER_LDFLAGS'
+Target 'Pods-MatchUp' in project 'Pods'
+➜ Explicit dependency on target 'SDWebImage' in project 'Pods'
+➜ Explicit dependency on target 'SDWebImageSwiftUI' in project 'Pods'
+Target 'SDWebImageSwiftUI' in project 'Pods'
+➜ Explicit dependency on target 'SDWebImage' in project 'Pods'
+➜ Explicit dependency on target 'SDWebImageSwiftUI-SDWebImageSwiftUI' in project 'Pods'
+Target 'SDWebImageSwiftUI-SDWebImageSwiftUI' in project 'Pods'
+➜ Implicit dependency on target 'SDWebImage' in project 'Pods' via options '-framework SDWebImage' in build setting 'OTHER_LDFLAGS'
+Target 'SDWebImage' in project 'Pods'
+➜ Explicit dependency on target 'SDWebImage-SDWebImage' in project 'Pods'
+Target 'SDWebImage-SDWebImage' in project 'Pods' (no dependencies)

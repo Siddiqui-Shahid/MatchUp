@@ -314,8 +314,56 @@ SWIFT_CLASS_NAMED("Item")
 @end
 
 
+SWIFT_CLASS_NAMED("NameEntity")
+@interface NameEntity : NSManagedObject
+- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
+@end
 
 
+@class NSString;
+
+@interface NameEntity (SWIFT_EXTENSION(MatchUp))
+@property (nonatomic, copy) NSString * _Nullable first;
+@property (nonatomic, copy) NSString * _Nullable last;
+@property (nonatomic, copy) NSString * _Nullable title;
+@end
+
+
+SWIFT_CLASS_NAMED("PictureEntity")
+@interface PictureEntity : NSManagedObject
+- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+
+@interface PictureEntity (SWIFT_EXTENSION(MatchUp))
+@property (nonatomic, copy) NSString * _Nullable large;
+@property (nonatomic, copy) NSString * _Nullable medium;
+@property (nonatomic, copy) NSString * _Nullable thumbnail;
+@end
+
+
+
+
+
+
+SWIFT_CLASS_NAMED("UserEntity")
+@interface UserEntity : NSManagedObject
+- (nonnull instancetype)initWithEntity:(NSEntityDescription * _Nonnull)entity insertIntoManagedObjectContext:(NSManagedObjectContext * _Nullable)context OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@class NSData;
+
+@interface UserEntity (SWIFT_EXTENSION(MatchUp))
+@property (nonatomic, copy) NSString * _Nullable email;
+@property (nonatomic, copy) NSData * _Nullable imageData;
+@property (nonatomic) int32_t index;
+@property (nonatomic, copy) NSString * _Nullable location;
+@property (nonatomic) int16_t selectionStatus;
+@property (nonatomic, strong) NameEntity * _Nullable name;
+@property (nonatomic, strong) PictureEntity * _Nullable picture;
+@end
 
 #endif
 #if __has_attribute(external_source_symbol)

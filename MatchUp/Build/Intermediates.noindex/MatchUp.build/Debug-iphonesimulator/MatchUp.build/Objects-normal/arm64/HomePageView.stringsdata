@@ -4,7 +4,31 @@
     "Localizable": [
       {
         "comment": "",
-        "key": "%@ %@ %@"
+        "key": "Random Users"
+      },
+      {
+        "comment": "",
+        "key": "%@. %@ %@"
+      },
+      {
+        "comment": "",
+        "key": "Accepted"
+      },
+      {
+        "comment": "",
+        "key": "Declined"
+      },
+      {
+        "comment": "",
+        "key": "Adilson Pultrum"
+      },
+      {
+        "comment": "",
+        "key": "56, Oudega gem"
+      },
+      {
+        "comment": "",
+        "key": "SmallingerInd, Drenthe"
       }
     ]
   },
