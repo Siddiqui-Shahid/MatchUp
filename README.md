@@ -28,3 +28,18 @@ Match Finder App is an iOS application that allows users to view and match with 
 2. Go to the project folder and install the SDWebImageSwiftUI pods
    ```sh
    pod install
+
+## Usage
+
+Upon launching the app, you will see a list of matches. You can swipe to match with partners. If you are offline, the app will fetch the data from Core Data to ensure you can continue matching without an internet connection.
+
+
+## Technologies Used
+
+- **Swift**: The programming language used for development.
+- **WDImage**: Used for image display.
+- **URLSession**: Used for making API calls.
+- **Combine**: Used for managing data flow.
+- **Core Data**: Used as the core database for data persistence.
+
+Upon launching the app, you will see a list of matches. You can swipe to match with partners. If you are offline, the app will fetch the data from Core Data to ensure you can continue matching without an internet connection.
