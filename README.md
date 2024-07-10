@@ -25,3 +25,6 @@ Match Finder App is an iOS application that allows users to view and match with 
 1. Clone the repo
    ```sh
    git clone https://github.com/yourusername/MatchFinderApp.git
+2. Go to the project folder and install the SDWebImageSwiftUI pods
+   ```sh
+   pod install
