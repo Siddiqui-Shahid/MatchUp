@@ -5,33 +5,39 @@
 //  Created by Muhammed Siddiqui on 7/9/24.
 //
 
+//struct HomePageView: View {
+//    @StateObject private var viewModel = HomePageViewModel()
+//    public let scaled = ScaledDimensions.shared
+
 import SwiftUI
 
 struct HomePageView: View {
     @StateObject private var viewModel = HomePageViewModel()
+    @State private var searchText = ""
     public let scaled = ScaledDimensions.shared
-    
+
     var body: some View {
         NavigationView {
             VStack {
                 List {
-                    ForEach(viewModel.users, id: \.email) { user in
+                    ForEach(filteredUsers.indices, id: \.self) { index in
+                        let user = filteredUsers[index]
                         VStack(alignment: .center) {
                             CustomImageView(imageURL: URL(string: user.picture?.largeURL ?? ""), imageData: user.picture?.largeData)
                                 .clipShape(Circle())
                                 .overlay(Circle().stroke(Color.white, lineWidth: 2))
                                 .shadow(radius: 5)
-                            
+
                             Text("\(user.userName?.title ?? ""). \(user.userName?.first ?? "") \(user.userName?.last ?? "")")
                                 .font(.title)
                                 .fontWeight(.bold)
                                 .foregroundColor(.primary)
-                            
+
                             Text(user.location ?? "")
                                 .font(.subheadline)
                                 .multilineTextAlignment(.center)
                                 .foregroundColor(.secondary)
-                            
+
                             if user.status == .notDecided {
                                 HStack {
                                     Image(systemName: "xmark.circle")
@@ -57,7 +63,6 @@ struct HomePageView: View {
                                     .frame(maxWidth: .infinity)
                                     .background(Color.blue)
                                     .cornerRadius(10)
-                                    
                             }
                         }
                         .padding()
@@ -67,13 +72,30 @@ struct HomePageView: View {
                         .shadow(radius: 5)
                         .padding(.horizontal)
                         .frame(maxWidth: .infinity)
+                        .onAppear {
+                            if index == viewModel.users.count - 1 {
+                                viewModel.fetchUsers()
+                            }
+                        }
                     }
                 }
+                .searchable(text: $searchText, placement: .navigationBarDrawer(displayMode: .always), prompt: "Search by Category")
                 .navigationTitle("Random Users")
             }
         }
     }
+
+    var filteredUsers: [UserViewModel] {
+        if searchText.isEmpty {
+            return viewModel.users
+        } else {
+            return viewModel.users.filter { user in
+                user.location?.localizedCaseInsensitiveContains(searchText) == true
+            }
+        }
+    }
 }
+
 
 
 import SwiftUI

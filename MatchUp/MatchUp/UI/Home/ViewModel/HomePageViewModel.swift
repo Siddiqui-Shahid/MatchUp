@@ -20,7 +20,7 @@ class HomePageViewModel: ObservableObject {
         fetchUsers()
     }
     
-    func fetchUsers() {
+    func fetchUsers(isPaginated: Bool = false) {
         guard let url = URL(string: "https://randomuser.me/api/?results=10") else {
             fetchUsersFromCoreData()
             return
@@ -41,7 +41,9 @@ class HomePageViewModel: ObservableObject {
                 }
             }, receiveValue: { [weak self] apiUsers in
                 let userViewModels = apiUsers.map { UserViewModel(apiUser: $0) }
-                self?.fetchUsersFromCoreData()
+                if !isPaginated {
+                    self?.fetchUsersFromCoreData()
+                }
                 if let strongSelf = self {
                     strongSelf.users.insert(contentsOf: userViewModels, at: 0)
                     strongSelf.users = Array(strongSelf.users.prefix(strongSelf.maxUsersLimit))
@@ -68,7 +70,7 @@ class HomePageViewModel: ObservableObject {
             
             if let apiName = apiUser.userName {
                 let nameEntity = NameEntity(context: context)
-                nameEntity.title = apiName.title
+                nameEntity.title = "\(apiName.title ?? "")"
                 nameEntity.first = apiName.first
                 nameEntity.last = apiName.last
                 userEntity.name = nameEntity
@@ -119,7 +121,7 @@ class HomePageViewModel: ObservableObject {
                 return (
                     index: Int(userEntity.index),
                     userModel: UserViewModel(
-                        name: Username(first: userEntity.name?.first, last: userEntity.name?.last, title: "\(userEntity.index)\(userEntity.name?.title ?? "")"),
+                        name: Username(first: userEntity.name?.first, last: userEntity.name?.last, title: "\(userEntity.name?.title ?? "")"),
                         email: userEntity.email,
                         location: userEntity.location,
                         picture: UserPicture(largeURL: userEntity.picture?.large, largeData: userEntity.imageData),
