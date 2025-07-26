@@ -19,6 +19,9 @@
 		23D528B42C3D6A8E00B93F13 /* SelectionStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D528B32C3D6A8E00B93F13 /* SelectionStatus.swift */; };
 		23D528B62C3E49B900B93F13 /* ScaledDimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D528B52C3E49B900B93F13 /* ScaledDimension.swift */; };
 		7A1D8DAE2E2CCD11008B20FF /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 7A1D8DAD2E2CCD11008B20FF /* SDWebImageSwiftUI */; };
+		7AE50FDF2E34F7E000675BF6 /* Search.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AE50FDD2E34F7E000675BF6 /* Search.png */; };
+		7AE50FE02E34F7E000675BF6 /* AcceptedAndRejected.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AE50FDE2E34F7E000675BF6 /* AcceptedAndRejected.png */; };
+		7AE50FE12E34F7E000675BF6 /* BaseUI.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AE50FDC2E34F7E000675BF6 /* BaseUI.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,9 @@
 		23D528B12C3D697F00B93F13 /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
 		23D528B32C3D6A8E00B93F13 /* SelectionStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionStatus.swift; sourceTree = "<group>"; };
 		23D528B52C3E49B900B93F13 /* ScaledDimension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaledDimension.swift; sourceTree = "<group>"; };
+		7AE50FDC2E34F7E000675BF6 /* BaseUI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BaseUI.png; sourceTree = "<group>"; };
+		7AE50FDD2E34F7E000675BF6 /* Search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Search.png; sourceTree = "<group>"; };
+		7AE50FDE2E34F7E000675BF6 /* AcceptedAndRejected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AcceptedAndRejected.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +74,7 @@
 		23D5288D2C3D255A00B93F13 /* MatchUp */ = {
 			isa = PBXGroup;
 			children = (
+				7AE50FD92E34F7A200675BF6 /* Screenshot */,
 				23D528B02C3D697000B93F13 /* CustomComponent */,
 				23D528AD2C3D46A800B93F13 /* Utils */,
 				23D528A62C3D38C600B93F13 /* Network */,
@@ -154,6 +161,16 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		7AE50FD92E34F7A200675BF6 /* Screenshot */ = {
+			isa = PBXGroup;
+			children = (
+				7AE50FDC2E34F7E000675BF6 /* BaseUI.png */,
+				7AE50FDD2E34F7E000675BF6 /* Search.png */,
+				7AE50FDE2E34F7E000675BF6 /* AcceptedAndRejected.png */,
+			);
+			path = Screenshot;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -215,6 +232,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7AE50FDF2E34F7E000675BF6 /* Search.png in Resources */,
+				7AE50FE02E34F7E000675BF6 /* AcceptedAndRejected.png in Resources */,
+				7AE50FE12E34F7E000675BF6 /* BaseUI.png in Resources */,
 				23D528962C3D255B00B93F13 /* Preview Assets.xcassets in Resources */,
 				23D528932C3D255B00B93F13 /* Assets.xcassets in Resources */,
 			);

@@ -17,7 +17,8 @@ struct HomePageView: View {
             return viewModel.users
         } else {
             return viewModel.users.filter { user in
-                user.location?.localizedCaseInsensitiveContains(searchText) == true
+                user.userName?.first?.localizedCaseInsensitiveContains(searchText) == true ||
+                user.userName?.last?.localizedCaseInsensitiveContains(searchText) == true
             }
         }
     }
