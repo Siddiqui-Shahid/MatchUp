@@ -44,11 +44,8 @@ Upon launching the app, you will see a list of matches. You can swipe to match w
 
 ## Screenshots
 
-### Base UI
-![Base UI](https://raw.githubusercontent.com/Siddiqui-Shahid/MatchUp/refs/heads/main/MatchUp/MatchUp/Screenshot/BaseUI.png)
-
-### Search View
-![Search](https://raw.githubusercontent.com/Siddiqui-Shahid/MatchUp/refs/heads/main/MatchUp/MatchUp/Screenshot/Search.png)
-
-### Accepted and Rejected Users
-![Accepted And Rejected](https://raw.githubusercontent.com/Siddiqui-Shahid/MatchUp/refs/heads/main/MatchUp/MatchUp/Screenshot/AcceptedAndRejected.png)
+<p float="left">
+  <img src="https://raw.githubusercontent.com/Siddiqui-Shahid/MatchUp/refs/heads/main/MatchUp/MatchUp/Screenshot/BaseUI.png" width="200">
+  <img src="https://raw.githubusercontent.com/Siddiqui-Shahid/MatchUp/refs/heads/main/MatchUp/MatchUp/Screenshot/Search.png" width="200">
+  <img src="https://raw.githubusercontent.com/Siddiqui-Shahid/MatchUp/refs/heads/main/MatchUp/MatchUp/Screenshot/AcceptedAndRejected.png" width="200">
+</p>
