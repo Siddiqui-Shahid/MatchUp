@@ -42,3 +42,13 @@ Upon launching the app, you will see a list of matches. You can swipe to match w
 - **Combine**: Used for managing data flow.
 - **Core Data**: Used as the core database for data persistence.
 
+## Screenshots
+
+### Base UI
+![Base UI](https://raw.githubusercontent.com/Siddiqui-Shahid/MatchUp/refs/heads/main/MatchUp/MatchUp/Screenshot/BaseUI.png)
+
+### Search View
+![Search](https://raw.githubusercontent.com/Siddiqui-Shahid/MatchUp/refs/heads/main/MatchUp/MatchUp/Screenshot/Search.png)
+
+### Accepted and Rejected Users
+![Accepted And Rejected](https://raw.githubusercontent.com/Siddiqui-Shahid/MatchUp/refs/heads/main/MatchUp/MatchUp/Screenshot/AcceptedAndRejected.png)
